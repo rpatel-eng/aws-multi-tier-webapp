@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS Multi-Tier Web Application</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f8f9fa; }
+        .container { max-width: 800px; margin: auto; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        h1, h2 { color: #343a40; }
+        a.button { display: inline-block; padding: 10px 20px; margin-top: 15px; background: #007bff; color: white; border-radius: 5px; text-decoration: none; }
+        a.button:hover { background: #0056b3; }
+        img { max-width: 100%; height: auto; margin-top: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AWS Multi-Tier Web Application</h1>
+        <div class="card">
+            <h2>Project Overview</h2>
+            <p>This project demonstrates a professional AWS multi-tier web application with:</p>
+            <ul>
+                <li>VPC with public/private subnets and NAT gateway</li>
+                <li>EC2 web servers running Apache & PHP</li>
+                <li>RDS MySQL database in private subnet</li>
+                <li>Auto Scaling & Application Load Balancer (ALB)</li>
+                <li>CloudFront CDN for content delivery</li>
+                <li>Secure PHP application with input validation & exception handling</li>
+            </ul>
+            <a class="button" href="web/createUser.html" target="_blank">View Static User Form</a>
+            <a class="button" href="https://github.com/<username>/aws-multi-tier-webapp" target="_blank">View GitHub Repo</a>
+        </div>
+        <div class="card">
+            <h2>Architecture Diagram</h2>
+            <img src="docs/architecture-diagram.png" alt="AWS Multi-Tier Architecture">
+        </div>
+    </div>
+</body>
+</html>
+
